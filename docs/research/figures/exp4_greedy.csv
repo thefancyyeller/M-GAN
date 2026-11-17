@@ -1,0 +1,17 @@
+source,N,method,mean_queries,exact_rate,mean_overlap
+synthetic,64,greedy_counting,1124.6,1.000,1.000
+synthetic,64,k_maxima,192.2,0.500,0.954
+synthetic,256,greedy_counting,2412.5,1.000,1.000
+synthetic,256,k_maxima,384.4,0.460,0.945
+synthetic,1024,greedy_counting,4071.1,0.980,0.999
+synthetic,1024,k_maxima,768.7,0.280,0.911
+synthetic,4096,greedy_counting,5593.5,1.000,1.000
+synthetic,4096,k_maxima,1537.1,0.220,0.894
+real,64,greedy_counting,1199.3,0.980,0.995
+real,64,k_maxima,192.3,0.300,0.931
+real,256,greedy_counting,2653.9,0.980,0.999
+real,256,k_maxima,384.4,0.300,0.940
+real,1024,greedy_counting,3935.9,1.000,1.000
+real,1024,k_maxima,768.8,0.340,0.911
+real,4096,greedy_counting,5627.2,0.980,0.996
+real,4096,k_maxima,1537.8,0.160,0.890

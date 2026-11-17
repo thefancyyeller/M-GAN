@@ -2,3 +2,5 @@ torch>=2.6
 torchvision>=0.21
 numpy
 pytest
+matplotlib
+# research/exp6_qiskit_check.py only, in a separate venv: qiskit==2.6.2 qiskit-aer==0.18.4

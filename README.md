@@ -22,3 +22,11 @@ Public API (all in `mgan`):
 * `MemoryDiscriminator` – `Encoder` + `Memory`; `forward(x)` gives real/fake
   log-odds, `remember(real, fake)` is the only write path.
 * `MemoryGAN` – `train_step(real_images) -> losses`, `generate(n) -> images`.
+
+## Research branch: quantum memory lookups
+
+`qmem/` holds exact amplitude-level simulators (Grover/BBHT, Dürr–Høyer,
+k-maxima, amplitude estimation) with a shared query counter; `research/`
+holds the experiments; `docs/research/` holds the literature reviews,
+`PLAN.md` and `REPORT.md` (the findings).  The Qiskit cross-check uses a
+separate venv at `D:\M-GAN\venv-q` (qiskit 2.6.2, qiskit-aer 0.18.4).

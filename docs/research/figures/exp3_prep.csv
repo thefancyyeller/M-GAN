@@ -1,0 +1,9 @@
+source,N,p_eff_median,prep_multiplier_median
+random,64,0.2217,2.12
+random,256,0.1172,2.92
+random,1024,0.0849,3.43
+random,4096,0.0657,3.90
+real,64,0.2280,2.09
+real,256,0.1324,2.75
+real,1024,0.0664,3.88
+real,4096,0.0007,39.09
